@@ -1,11 +1,15 @@
 {
-  "name": "vue-oil-plugins",
+  "name": "vue-plugins-name",
   "version": "0.1.0",
-  "private": true,
+  "description": "new template for vue plugins",
+  "main": "lib/vcolorpicker.umd.min.js",
+  "keyword": "vue-plugins-test20180418",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -22,5 +26,6 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "license": "MIT"
 }
