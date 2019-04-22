@@ -2,9 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 
 // 导入组件库
-import ColorPicker from './../packages/index'
+import applyStations from './../packages/index'
 // 注册组件库
-Vue.use(ColorPicker)
+Vue.use(applyStations)
 
 Vue.config.productionTip = false
 
